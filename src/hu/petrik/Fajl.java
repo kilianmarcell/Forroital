@@ -32,10 +32,12 @@ public class Fajl {
 
     public void getTartalom() {
         try {
+            meret = 0;
             FileReader fr = new FileReader(nev + kiterjesztes);
             BufferedReader br = new BufferedReader(fr);
             String sor = br.readLine();
             while (sor != null) {
+                meret += sor.length();
                 System.out.println(sor);
                 sor = br.readLine();
             }

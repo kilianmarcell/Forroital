@@ -24,5 +24,6 @@ public class Main {
         }
         Fajl f1 = new Fajl("proba", ".txt");
         f1.getTartalom();
+        System.out.println(f1);
     }
 }
