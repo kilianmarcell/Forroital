@@ -1,0 +1,7 @@
+első sor
+masodik
+harmadik
+1
+2
+3
+elég sok sor
