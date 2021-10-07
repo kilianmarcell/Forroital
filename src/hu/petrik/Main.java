@@ -22,5 +22,7 @@ public class Main {
             f.ertekkelEmeles(50);
             System.out.println("50%-kal növelt: " + f + "\n\n");
         }
+        Fajl f1 = new Fajl("proba", ".txt");
+        f1.getTartalom();
     }
 }
